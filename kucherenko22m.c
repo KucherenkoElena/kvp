@@ -11,7 +11,7 @@ void findSum(int arr[], int N){
 	printf("Сумма элементов массива:  %d", s);
 }
 void main(){
-	int arr[] = {1, 2, 4, -1, 76, 33, -8, 0};
+	int arr[] = {11, 21, 114, -211, 1716, 133, -128, 10};
 	int N = sizeof(arr) / sizeof(arr[0]);
 	findSum(arr, N);
 }
